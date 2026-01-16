@@ -9,5 +9,5 @@
     "name": "Nikodem Grzonkowski"
   },
   "description": "Pool short-lived objects like projectiles or long-lived objects like environment props or entities.",
-  "documentationUrl": "https://github.com/niggo1243/NikosAssets.Pooling"
+  "documentationUrl": "https://github.com/nikodemgrz/NikosAssets.Pooling"
 }
