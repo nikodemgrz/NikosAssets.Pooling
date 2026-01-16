@@ -20,11 +20,9 @@ See the API doc [here](http://pooling.api.niko-creates.tech/annotated.html)
 
 ### Unity Package Dependency
 
-To add this toolkit as a package dependency to your Unity project, locate your manifest file in "Package/manifest.json" or add the git-url via the package manager UI.
+The current dependency is a fork with performance improvements ([https://github.com/nikodemgrz/NaughtyAttributes](https://github.com/nikodemgrz/NaughtyAttributes)) of the original open-source project NaughtyAttributes by dbrizov: [https://github.com/dbrizov/NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes).
 
-In the previous versions of this package you had to add the NaughtyAttributes package dependency to the "scopedRegistries". Unfortunately this forced you to use a specific fork or version, so to avoid that restriction you have to add the NaughtyAttributes git url (fork/ version) of your liking yourself. The current dependency is a fork with performance improvements ([https://github.com/nikodemgrz/NaughtyAttributes](https://github.com/nikodemgrz/NaughtyAttributes)) of the original open-source project NaughtyAttributes by dbrizov: [https://github.com/dbrizov/NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes) 
-
-The original NaughtyAttributes package works as well though and if you already have it installed, you don't have to add the forked branch in the following steps!
+Note, that the original NaughtyAttributes package is also compatible with this package if you already have it installed!
 
 Add the following git urls in the Unity PackageManager:
 ```
